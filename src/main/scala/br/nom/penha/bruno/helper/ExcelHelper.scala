@@ -1,4 +1,4 @@
-package br.nom.penha.bruno.csvvalidator.helper
+package br.nom.penha.bruno.helper
 
 import org.apache.poi.ss.usermodel.{Cell, DateUtil, Row, Sheet, CellType}
 import org.apache.poi.util.Internal

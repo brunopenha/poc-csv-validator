@@ -1,18 +1,15 @@
 package samples
 
-import br.nom.penha.bruno.csvvalidator.helper.ExcelHelper
-
-import org.apache.poi.ss.usermodel.Sheet
-import org.apache.poi.ss.usermodel.Workbook
+import br.nom.penha.bruno.helper.ExcelHelper
+import org.apache.poi.ss.usermodel.{Sheet, Workbook}
 import org.apache.poi.xssf.usermodel.XSSFWorkbook
-import org.scalatest.FlatSpec
-import org.scalatest.Matchers
+import org.junit.runner.RunWith
+import org.scalatest.junit.JUnitRunner
+import org.scalatest.{FlatSpec, Matchers}
 
-import java.io.File
-import java.io.FileInputStream
-import scala.collection.JavaConverters._
-import scala.collection.mutable
+import java.io.{File, FileInputStream}
 
+@RunWith(classOf[JUnitRunner])
 class ExcelHelperTest extends FlatSpec with Matchers {
 
   "ExcelHelper" should "read Excel file correctly" in {
