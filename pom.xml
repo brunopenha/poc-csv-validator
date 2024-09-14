@@ -83,7 +83,7 @@
         </exclusion>
         <exclusion>
           <groupId>org.scala-lang.modules</groupId>
-          <artifactId>scala-xml_2.12</artifactId>
+          <artifactId>scala-xml_${scala.compat.version}</artifactId>
         </exclusion>
       </exclusions>
       <scope>test</scope>
