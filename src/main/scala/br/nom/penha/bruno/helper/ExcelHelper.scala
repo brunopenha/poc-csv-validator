@@ -1,7 +1,6 @@
 package br.nom.penha.bruno.helper
 
-import org.apache.poi.ss.usermodel.{Cell, DateUtil, Row, Sheet, CellType}
-import org.apache.poi.util.Internal
+import org.apache.poi.ss.usermodel.{CellType, DateUtil, Row, Sheet}
 
 class ExcelHelper {
   def readExcel(sheet: Sheet): Map[Int, List[String]] = {
